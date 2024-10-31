@@ -1,0 +1,133 @@
+*{
+font-family:serif, "Times New Roman", Times ;
+}
+.outer_div{
+	height: auto;
+	width: 70%;
+	background-color: #0E76BC;
+	padding:10px 30px;
+	text-align:center;
+	margin:auto;
+	border-radius:5px;
+}
+.inner_top_div{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	padding-left:150px;
+}
+
+.bottom_div{
+	padding:10px 30px;
+	text-align:center;
+}
+.bottom_inner_div{
+	background-color: #3FA9F1;
+	width:500px;
+	margin:auto;
+	border-radius:6px;
+	padding:15px;
+    overflow: hidden;
+}
+#nomination input[type="text"], select{
+	font-weight:bold;
+    width: auto;
+    padding: 0;
+    font-size: 15px;
+}
+.award_logo{
+    float: left;
+    width: 15%;
+    margin: 0 10px;
+}
+.award_logo img{
+    height: auto;
+    max-width: 100%;
+}
+.award_details{
+    float: left;
+    width: 80%;
+}
+.award_title{
+    background-color:#FFFFFF; 
+    text-align:left;
+    line-height: normal;
+    padding: 4px 10px;
+}
+.award_message{
+   margin-top: 10px; 
+}
+#nomination textarea{
+background-color:#FFFFFF;
+padding:0 10px;
+width:95%; 
+height:auto;
+}
+.social_media{
+display:block;
+background-color:#2C76A9;
+color:#FFFFFF;
+font-weight:bold;
+padding:5px;
+border-radius:5px;
+width: 133px;
+}
+.share_n{
+    float: left;
+    margin-top: 10px;
+    width:100%;
+}
+.share_n span{
+    float: left;
+    margin: 0 10px;
+}
+.btnspan{
+    float: right !important;
+    margin-right: 0 !important;
+}
+
+.vote_table table{
+    border-spacing:3px;
+    border-collapse:separate;
+}
+
+#nominate{
+background: none repeat scroll 0 0 #8DC469;
+border-radius:5px;
+padding:5px 10px;
+font-weight:bold;
+color:#FFFFFF;
+box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.15);
+border:1px solid #0079BE;
+}
+.dark{
+ 	-moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #8DC469;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: #AFE57A #305010 #497A18 #AFE57A;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    box-shadow: 3px 1px 2px rgba(0, 0, 0, 0.15);
+    color: white;
+    font-size: 1.25em;
+    padding: 5px 10px;
+    position: relative;
+    right: 0px;
+    text-shadow: 1px 1px 1px #407120;
+    top: -5px;
+    z-index: 9999;
+	float:right;
+	
+}
+.nomination{
+    width:auto;
+    
+}
+input[type="submit"]{
+color:#FFFFFF;
+}
